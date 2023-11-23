@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Øyvind er en flott fyr</Text>
+      <Text>Dette blir et supert prosjekt</Text>
       <StatusBar style="auto" />
     </View>
   );

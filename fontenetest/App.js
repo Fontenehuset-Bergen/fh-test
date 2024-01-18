@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Footer from './components/footer';
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Øyvind er en flott fyr</Text>
-      <StatusBar style="auto" />
-    </View>
+      <NavigationContainer styles={styles.container}>
+        <Footer></Footer>
+      </NavigationContainer>
   );
 }
 
